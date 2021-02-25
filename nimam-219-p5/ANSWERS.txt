@@ -1,0 +1,54 @@
+PROBLEM 1: TESTING
+==================
+
+(10%) The correct implementation is #: (fill in your answer below
+
+imp #: imp 9
+
+--------------------------------------------------------------------------------
+
+KNOWN FAULTY IMPLEMENTATIONS
+----------------------------
+
+(4%) Describe the general problems with imp4
+
+    the mode method in imp4 is faulty, it usually returns only one mode.
+
+(4%) Describe the general problems with imp5
+    
+    the mode method in imp5 is faulty, throwing null pointer exception.                                
+
+(4%) Describe the general problems with imp6
+
+    the unique method in imp6 is faulty, it returns the list going backwards.
+
+--------------------------------------------------------------------------------
+
+PROBLEM 2: DEBUGGING
+====================
+
+--------------------------------------------------------------------------------
+(55%) Include the command line you found to pass as many phases as
+possible. Include your NetID at the beginning.  To complete all
+phases, a total of 29 command line args including NetID are required.
+
+    nimam 30 62 61 10 16 46 1 1 6 13
+    abcdefgabcdefg 0 7 13 1 3 -3 48 4
+    "with great power comes a big electricity bill" 
+    0 1 1 1 15 1 2 1
+
+--------------------------------------------------------------------------------
+(5%) Describe your experience using the debugger. What helped, what
+frustrated, and what lessons will you take forward? Limit your
+description to one to two paragraphs.
+
+    In the beginning I wasn’t comfortable with using the debugger so I was
+    tracing the code by hand and thats how I got past phase 2 but after that
+    phase 2 things got relatively harder and it got hard to keep track of every
+    part of the code on paper. It got to the point where I was sitting among a pile
+    papers with code on them. Then I begrudgingly started using the debugger and it
+    was a little easier but I still had to keep track of all the variables. Towards
+    the end of phase 9 I was tired of the debugger. Its easy to use but with the 
+    amount of clustered code in the DebugMe file, it was harder to use it.
+                                          
+--------------------------------------------------------------------------------
